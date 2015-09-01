@@ -1,0 +1,8 @@
+/* Gratis subtheme css file */
+.main {
+    background: #284666 url("http://dev.websop.es/sites/dev.websop.es/libraries/site_under_construction_templates/ws-landing-reveal/img/showcase-bg-fixed-01.jpg") no-repeat fixed center center / cover;
+}
+#logo-img {
+    height: 100px;
+}
+
