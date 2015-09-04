@@ -1,4 +1,29 @@
-/* Gratis subtheme css file */
-.main {
-    background: #284666 url("http://dev.websop.es/sites/dev.websop.es/libraries/site_under_construction_templates/ws-landing-reveal/img/showcase-bg-fixed-01.jpg") no-repeat fixed center center / cover;
+html {
+    background: #284666 url('http://dev.websop.es/sites/dev.websop.es/libraries/site_under_construction_templates/ws-landing-reveal/img/showcase-bg-fixed-01.jpg') no-repeat fixed center center / cover;
+}
+
+body.color-palette-maillot-jaune .l-page-wrapper, body.color-palette-caribe .l-page-wrapper, body.color-palette-chartreuse .l-page-wrapper, body.color-palette-mediterranean-red .l-page-wrapper {
+    background-color: rgba(0,0,0,0);
+}
+
+body.color-palette-maillot-jaune, body.color-palette-caribe, body.color-palette-chartreuse, body.color-palette-mediterranean-red {
+    background-color: rgba(0,0,0,0);
+}
+
+.l-header-wrapper {
+    background-color: rgba(0,0,0,0);
+}
+
+body.color-palette-maillot-jaune .l-footer-wrapper, body.color-palette-caribe .l-footer-wrapper, body.color-palette-chartreuse .l-footer-wrapper, body.color-palette-mediterranean-red .l-footer-wrapper {
+    background-color: rgba(0,0,0,0);
+}
+
+/* Social media links alignement */
+.front .pane-social-media-link-widget, .front .pane-node-links {
+    text-align: right;
+}
+
+/* Hidde active language switcher */
+.language-switcher-locale-url .active {
+    display: none;
 }
