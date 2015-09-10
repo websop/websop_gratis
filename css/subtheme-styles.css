@@ -43,6 +43,17 @@ body.admin-menu.adminimal-menu::before {
     height: 0;
 }
 
+#top-bar {
+    background: rgba(51, 51, 51, 0.48) none repeat scroll 0% 0%;
+    float: right;
+    position: absolute;
+    right: 0px;
+}
+.language-switcher-locale-url li {
+    display: inline;
+}
+
+
 /* Social media links alignement */
 .front .pane-social-media-link-widget, .front .pane-node-links {
     text-align: right;
