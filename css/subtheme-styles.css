@@ -44,13 +44,14 @@ body.admin-menu.adminimal-menu::before {
 }
 
 #top-bar {
-    background: rgba(51, 51, 51, 0.48) none repeat scroll 0% 0%;
+    background: rgba(51, 51, 51, 0) none repeat scroll 0% 0%;
     float: right;
     position: absolute;
     right: 0px;
 }
 .language-switcher-locale-url li {
     display: inline;
+    font-weight: bold;
 }
 
 
