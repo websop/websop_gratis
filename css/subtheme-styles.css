@@ -49,11 +49,21 @@ body.admin-menu.adminimal-menu::before {
     position: absolute;
     right: 0px;
 }
+
+ul.language-switcher-locale-url {
+  margin: 0px;
+}
+
 .language-switcher-locale-url li {
     display: inline;
     font-weight: bold;
 }
 
+a.language-link::before {
+  content: "\f1ab";
+  padding-right: 3px;
+  font-size: 138%;
+}
 
 /* Social media links alignement */
 .front .pane-social-media-link-widget, .front .pane-node-links {
